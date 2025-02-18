@@ -1,24 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josej\\Documents\\UGB\\GIT\\pagadito-updater-service\\pagadito-updater-service.csproj": {}
+    "C:\\ProgramData\\GTP_OS\\source\\bin\\temp\\resources\\services\\pagadito-updater-service\\pagadito-updater-service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josej\\Documents\\UGB\\GIT\\pagadito-updater-service\\pagadito-updater-service.csproj": {
+    "C:\\ProgramData\\GTP_OS\\source\\bin\\temp\\resources\\services\\pagadito-updater-service\\pagadito-updater-service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josej\\Documents\\UGB\\GIT\\pagadito-updater-service\\pagadito-updater-service.csproj",
+        "projectUniqueName": "C:\\ProgramData\\GTP_OS\\source\\bin\\temp\\resources\\services\\pagadito-updater-service\\pagadito-updater-service.csproj",
         "projectName": "pagadito-updater-service",
-        "projectPath": "C:\\Users\\josej\\Documents\\UGB\\GIT\\pagadito-updater-service\\pagadito-updater-service.csproj",
-        "packagesPath": "C:\\Users\\josej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josej\\Documents\\UGB\\GIT\\pagadito-updater-service\\obj\\",
+        "projectPath": "C:\\ProgramData\\GTP_OS\\source\\bin\\temp\\resources\\services\\pagadito-updater-service\\pagadito-updater-service.csproj",
+        "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgramData\\GTP_OS\\source\\bin\\temp\\resources\\services\\pagadito-updater-service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "D:\\Program Files\\DevExpress23\\Components\\Offline Packages",
+          "D:\\Program Files\\DevExpress\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\josej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +31,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Program Files\\DevExpress23\\Components\\System\\Components\\Packages": {},
+          "D:\\Program Files\\DevExpress\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +46,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -64,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

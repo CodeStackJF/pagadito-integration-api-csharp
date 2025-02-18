@@ -41,7 +41,6 @@ namespace pagadito_updater_service
 
         public static async Task Check()
         {
-            //List<string> erns = new List<string>();
             while(true)
             {
                 using(var ctx = new UOnlineCTX())
@@ -53,7 +52,6 @@ namespace pagadito_updater_service
                     {
                         break;
                     }
-                    //erns.Add(result.ern_codigo);
                     string url_pagadito = Configuration.GetSection("url_pagadito").Value;
                     url_pagadito = url_pagadito.Replace("{token}", result.ern_token).Replace("{ern}", result.ern_codigo);
                     RestClient client = new RestClient(url_pagadito);
